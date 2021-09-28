@@ -10,7 +10,7 @@ body{
 .main-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr auto;
+    grid-template-rows: auto 1fr 1fr 1fr 1fr auto
 }
 .header{
     display: flex;
@@ -60,6 +60,8 @@ body{
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #F9FAF8;
 }
 .hero-image img{
     width: 600px;
@@ -69,7 +71,7 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-color: #F9FAF8;
+    background-color: #FFFFFF;
 }
 .gallery h1{
     align-items: center;
@@ -93,8 +95,64 @@ body{
     text-align: center;
 }
 .gallery-img img{
-    border: 4px solid rgb(73, 229, 240);
+    border: 4px solid #3882F6;
     border-radius: 10px;
     width: 200px;
     height: 200px;
+}
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 50px 500px;
+}
+.quote-section figure{
+    font-weight: 100;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+.quote-section figcaption{
+    margin-top: 10px;
+    text-align: right;
+    font-weight: bold;
+    font-style: normal;
+}
+.sign-up-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 50px 150px;
+    border-radius: 10px;
+}
+.call-to-action-text{
+    color: #F9FAF8;
+    font-weight: bold;
+}
+#call-to-action-btn{
+    margin-left: 200px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-weight: bold;
+    background-color: #3882F6;
+    border: 3px solid #F9FAF8;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 20px;
 }
